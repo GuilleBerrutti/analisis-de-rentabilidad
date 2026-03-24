@@ -1,7 +1,7 @@
 /* PROYECTO: Análisis de Mercados Internacionales
 OBJETIVO: Identificar la presencia de clientes en regiones estratégicas (Francia, Alemania, Brasil).
-VALOR DE NEGOCIO: Proporcionar una visión clara de la cobertura geográfica para futuras campañas de marketing, independientemente de si los clientes tienen pedidos activos.
-*/
+VALOR DE NEGOCIO: Proporcionar una visión clara de la cobertura geográfica para futuras campañas de marketing,
+independientemente de si los clientes tienen pedidos activos.*/
 
 select 
 	c.company_name,

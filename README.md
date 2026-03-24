@@ -1,30 +1,50 @@
-# 📊 Análisis de Datos de Ventas y Optimización de Rentabilidad
+# 📈 Análisis de Rentabilidad y Consultas Avanzadas 
 
-## Descripción del Proyecto
-Este proyecto consiste en el análisis de una base de datos relacional de e-commerce utilizando **SQL**. El objetivo principal fue extraer información estratégica para identificar patrones de compra, segmentar clientes y detectar oportunidades para maximizar el margen de beneficio de la operación.
-
-## Herramientas Utilizadas
-* **Lenguaje:** SQL (PostgreSQL / MySQL)
-* **Conceptos Aplicados:** JOINS complejos, Subconsultas, Funciones de Agregación, Filtrado Avanzado y Lógica de Negocio.
-
-## Desafíos Resueltos
-En este repositorio se encuentran las soluciones a los siguientes requerimientos de negocio:
-
-1. **Análisis de Clientes y Pedidos:** Vinculación de tablas mediante `JOIN` para identificar los clientes con mayor volumen de compra.
-2. **Optimización de Inventario:** Consultas para detectar productos con baja rotación y su impacto en el costo de almacenamiento.
-3. **Cálculo de Rentabilidad:** Aplicación de lógica matemática en SQL para determinar la ganancia neta por categoría de producto.
-4. **Patrones de Consumo:** Uso de `LIKE` y operadores lógicos para segmentar productos por tendencias estacionales.
-
-## Resultados Obtenidos
-* Se logró automatizar el reporte de ventas mensuales mediante scripts optimizados.
-* Se identificaron los 5 productos con mayor tasa de devolución, permitiendo una revisión de calidad.
-* El análisis de margen permitió proponer una reestructuración de precios en la categoría Condimentos.
-
-## Estructura del Repositorio
-* `/scripts`: Contiene los archivos `.sql` con las consultas desarrolladas.
-* `/data`: Diccionario de datos y esquema de las tablas utilizadas (ERD).
-* `/results`: Capturas de pantalla de los resultados obtenidos y breves conclusiones.
+## 🎯 Desafíos Resueltos
+En este repositorio se documenta la resolución de 4 ejercicios clave que abarcan:
+* **Vinculación de Datos**: Identificación de clientes sin pedidos activos mediante `LEFT JOIN`.
+* **Segmentación de Productos**: Filtrado avanzado por patrones de nombres y rangos de precios.
+* **Cálculos de Negocio**: Determinación de montos totales por pedido (`Quantity * UnitPrice`).
+* **Calidad de Datos**: Detección de valores nulos en la cadena de suministro.
 
 ---
-Comprometido con la toma de decisiones basada en datos. 
-¡Conectemos en www.linkedin.com/in/guillermo-data-analyst!
+
+## 📊 Evidencias de Ejecución (Resultados)
+
+He organizado las capturas de pantalla de los resultados para que puedas consultarlas de forma ordenada:
+
+<details>
+  <summary>🔍 Ver Ejercicio 2: Clientes y Pedidos (Joins)</summary>
+  <br>
+  <p>En esta consulta se identificaron los clientes que no han realizado transacciones, validando la integridad de la relación entre tablas.</p>
+  <img src="Clientes_y_pedidos_internacionales.png" alt="Resultado Ejercicio 2" width="600">
+</details>
+
+<details>
+  <summary>🎯 Ver Ejercicio 3: Filtrado de Productos (Like/Between)</summary>
+  <br>
+  <p>Aplicación de filtros específicos para segmentar el catálogo de productos según requerimientos de marketing.</p>
+  <img src="Análisis_productos_y_proveedores.png" alt="Resultado Ejercicio 3" width="600">
+</details>
+
+<details>
+  <summary>💰 Ver Ejercicio 4: Rentabilidad por Pedido (Cálculos)</summary>
+  <br>
+  <p>Cálculo dinámico de ingresos por línea de producto, fundamental para reportes de ventas.</p>
+  <img src="Detalle_ventas_y_descuentos.png" alt="Resultado Ejercicio 4" width="600">
+</details>
+
+<details>
+  <summary>🛠️ Ver Ejercicio 5: Auditoría de Proveedores (Is Null)</summary>
+  <br>
+  <p>Detección de productos huérfanos de proveedor para asegurar la continuidad de la cadena de suministro.</p>
+  <img src="Consultas_básicas_inventario.png" alt="Resultado Ejercicio 5" width="600">
+</details>
+
+---
+
+## 💡 Aprendizajes Técnicos
+Para ver el detalle de los conceptos aplicados y las conclusiones de negocio de este proyecto, consulta el archivo de **[Conclusiones Técnicas](./results/conclusiones.md)** en la carpeta de resultados.
+
+---
+🚀 *Proyecto desarrollado como parte de mi formación como Analista de Datos.*

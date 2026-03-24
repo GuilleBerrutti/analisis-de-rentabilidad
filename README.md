@@ -38,7 +38,7 @@ He organizado las capturas de pantalla de los resultados para que puedas consult
   <summary>🛠️ Ver Ejercicio 5: Auditoría de Proveedores (Is Null)</summary>
   <br>
   <p>Detección de productos huérfanos de proveedor para asegurar la continuidad de la cadena de suministro.</p>
-  <img src="Consultas_básicas_inventario.png" alt="Resultado Ejercicio 5" width="600">
+  <img src="./results/consultas_basicas_inventario.png" alt="Resultado Ejercicio 5" width="600">
 </details>
 
 ---

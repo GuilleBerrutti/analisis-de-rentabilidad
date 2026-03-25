@@ -46,7 +46,7 @@ He organizado las capturas de pantalla de los resultados para que puedas consult
 ---
 
 ## 💡 Aprendizajes Técnicos
-Para ver el detalle de los conceptos aplicados y las conclusiones de negocio de este proyecto, consulta el archivo de **[Conclusiones Técnicas](./results/conclusiones.md)** en la carpeta de resultados.
+Para ver el detalle de los conceptos aplicados y las conclusiones de negocio de este proyecto, consulta el archivo de **[Conclusiones Técnicas](./Results/conclusiones.md)** en la carpeta de resultados.
 
 ---
 🚀 *Proyecto desarrollado como parte de mi formación como Analista de Datos.*

@@ -9,7 +9,7 @@ select
 	product_name as producto,
 	quantity as cantidad,
 	od.unit_price as precio,
-	(od.quantity * od.unit_price) as total,
+	round((od.quantity * od.unit_price)::numeric,2) as total,
 	od.discount 
 from orders o 
 left join customers c 

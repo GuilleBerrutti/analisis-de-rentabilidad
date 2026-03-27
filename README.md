@@ -1,7 +1,7 @@
 # 📈 Análisis de Rentabilidad y Consultas Avanzadas 
 
 ## 🎯 Desafíos Resueltos
-En este repositorio se documenta la resolución de 4 ejercicios clave que abarcan:
+En este repositorio se documenta la resolución de casos de análisis claves que abarcan:
 * **Vinculación de Datos**: Identificación de clientes sin pedidos activos mediante `LEFT JOIN`.
 * **Segmentación de Productos**: Filtrado avanzado por patrones de nombres y rangos de precios.
 * **Cálculos de Negocio**: Determinación de montos totales por pedido (`Quantity * UnitPrice`).
@@ -47,6 +47,3 @@ He organizado las capturas de pantalla de los resultados para que puedas consult
 
 ## 💡 Aprendizajes Técnicos
 Para ver el detalle de los conceptos aplicados y las conclusiones de negocio de este proyecto, consulta el archivo de **[Conclusiones Técnicas](./Results/conclusiones.md)** en la carpeta de resultados.
-
----
-🚀 *Proyecto desarrollado como parte de mi formación como Analista de Datos.*

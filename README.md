@@ -8,7 +8,7 @@ En esta sección se presentan los tableros interactivos diseñados para la toma 
   <br>
 
   ### Análisis de Ventas y Categorías
-  ![Dashboard de Ventas](img/analisis.png)
+  ![Dashboard de Ventas](img/Ventas_por_categoria.png)
 
   ### Detalle de Inventario y Operaciones
   ![Detalle de Power BI](img/detalle.png)

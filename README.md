@@ -9,8 +9,11 @@ Este proyecto presenta un ecosistema de datos integral sobre la base de datos **
 Tras integrar las diferentes fuentes de análisis, se han extraído los siguientes *insights* estratégicos para la toma de decisiones:
 
 * **Crecimiento Sostenible:** El modelo de **Regresión Lineal** valida una tendencia positiva en los ingresos. Se proyecta que las ventas mensuales superarán la barrera de los **$100,000** en el corto plazo, lo que sugiere una oportunidad para expandir la capacidad operativa.
+
 * **Gestión de Estacionalidad:** Se identificó un pico crítico de ventas los **viernes de abril ($50,301)** y una caída significativa los **miércoles de junio ($4,602)**. Esto permite planificar campañas de reactivación específicas para los periodos de baja demanda.
+
 * **Eficiencia Logística:** Existe una brecha de rendimiento en envíos entre países. Mientras que **Finlandia** es el más eficiente (5.6 días), **Irlanda** presenta el promedio más alto (11 días), señalando un punto de mejora necesario en la cadena de suministros internacional.
+
 * **Mix de Productos:** La categoría **Beverages** es el motor principal de la empresa con **$268,000** en ventas totales, consolidándose como el producto líder para estrategias de fidelización.
 
 ---

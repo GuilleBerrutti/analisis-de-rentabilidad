@@ -43,7 +43,7 @@ Visualización de KPIs críticos como el rendimiento logístico por país y la d
 La base del proyecto reside en una estructura sólida de SQL. Se desarrollaron scripts avanzados para auditoría y preparación de datos:
 * [Análisis de Mercados Internacionales](sql/01_clientes_y_pedidos_internacionales.sql)
 * [Auditoría de Proveedores y Catálogo](sql/02_analisis_productos_y_proveedores.sql)
-* [Elasticidad de Descuentos](sql/03_analisis_ventas_y_descuentos.sql)
+* [Elasticidad de Descuentos](sql/03_detalle_ventas_y_descuentos.sql)
 * [Vistas Analíticas para Python](sql/04_vistas_analiticas_para_python.sql)
 
 ---

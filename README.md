@@ -16,21 +16,26 @@
 
     * *Impacto:* Estos hallazgos permiten una planificación logística diferenciada (ajuste de personal y stock) según la estacionalidad mensual, optimizando los costos operativos durante los valles de demanda.
 
-
-
     ![Mapa de Calor de Ventas](img/mapa-de-calor.png)
 
 ---
 
-## 📊 Business Intelligence: Dashboard y Análisis Comercial (Power BI)
+## 📊 Business Intelligence & Reporting (Power BI)
 
-Para la toma de decisiones ejecutivas, consolidé los datos en un dashboard interactivo que permite profundizar en la operativa de Northwind:
+<details>
+  <summary><b>Pulsá aquí para ver el Dashboard y Análisis de Ventas</b></summary>
 
-* **Visualización de Ventas por Categoría:** * *Hallazgo:* Se identificó que el 70% de la facturación se concentra en 3 categorías clave, permitiendo priorizar el stock y los esfuerzos de marketing en los productos de mayor rotación.
-* **KPI Logístico (Días por Entrega):** * *Hallazgo:* El monitoreo en tiempo real del promedio de días por entrega permite detectar demoras logísticas por transportista o región antes de que afecten la satisfacción del cliente.
+  ### Dashboard Ejecutivo
+  Este tablero consolida la operativa de Northwind, permitiendo una navegación fluida entre categorías y tiempos logísticos.
+  
+  ![Dashboard General](img/Dias_promedio_del_envio.png)
 
-![Dashboard de Power BI - Vista General](img/Dias_promedio_del_envio.png)
-![Análisis de Ventas por Categoría](img/Ventas_por_categoria.png)
+  ### Hallazgos por Categoría y Logística
+  * **Ventas por Categoría:** Se identificó que el 70% de la facturación se concentra en 3 categorías clave. Este insight permite priorizar el stock y los esfuerzos de marketing.
+  * **KPI Logístico:** El promedio de días por entrega permite detectar cuellos de botella por región o transportista.
+
+  ![Análisis de Ventas por Categoría](img/Ventas_por_categoria.png)
+</details>
 
 ---
 

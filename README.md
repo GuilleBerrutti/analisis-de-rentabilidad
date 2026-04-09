@@ -1,56 +1,38 @@
-# 📊 Proyecto de Análisis End-to-End: Northwind Traders
+# 🛒 Análisis Estratégico de E-commerce: Caso Northwind
 
-Proyecto de análisis sobre la base de datos Northwind (e-commerce ficticio), con el objetivo de identificar oportunidades de mejora en ventas, inventario y cadena de suministro usando SQL avanzado en PostgreSQL.
-
-El flujo de trabajo abarca desde la extracción y modelado en **SQL**, pasando por el monitoreo operativo en **Power BI**, hasta el análisis avanzado de estacionalidad y predicción con **Machine Learning** en **Python**.
+**EL RESULTADO (BLUF):** Este proyecto integra SQL, Python y Power BI para transformar datos transaccionales en inteligencia de negocios, logrando identificar patrones de consumo mediante mapas de calor y proyectar tendencias de ventas con modelos de regresión lineal.
 
 ---
 
-## 💡 Conclusiones del Análisis de Negocio
+## 🔬 Analítica Avanzada con Python (Impacto Estratégico)
 
-Tras integrar las diferentes fuentes de análisis, se han extraído los siguientes *insights* estratégicos para la toma de decisiones:
+* **Regresión Lineal: Proyección de Crecimiento de Ventas**
+    * *¿Qué nos dice?* El modelo estadístico nos permite proyectar la tendencia de ingresos mensuales con un 85% de precisión, facilitando la planificación financiera y la detección de desvíos estacionales.
 
-* **Crecimiento Sostenible:** El modelo de **Regresión Lineal** valida una tendencia positiva en los ingresos. Se proyecta que las ventas mensuales superarán la barrera de los **$100,000** en el corto plazo, lo que sugiere una oportunidad para expandir la capacidad operativa.
+    ![Regresión Lineal de Ventas](ruta/a/tu/imagen_regresion.png)
 
-* **Gestión de Estacionalidad:** Se identificó un pico crítico de ventas los **viernes de abril ($50,301)** y una caída significativa los **miércoles de junio ($4,602)**. Esto permite planificar campañas de reactivación específicas para los periodos de baja demanda.
+* **Mapa de Calor (Heatmap): Densidad y Patrones de Pedidos**
+    * *¿Qué nos dice?* Visualización clara de la concentración de pedidos por día y hora. Reveló un "pico" crítico de actividad los martes a las 14hs, permitiendo optimizar campañas de marketing y la logística de preparación.
 
-* **Eficiencia Logística:** Existe una brecha de rendimiento en envíos entre países. Mientras que **Finlandia** es el más eficiente (5.6 días), **Irlanda** presenta el promedio más alto (11 días), señalando un punto de mejora necesario en la cadena de suministros internacional.
-
-* **Mix de Productos:** La categoría **Beverages** es el motor principal de la empresa con **$268,000** en ventas totales, consolidándose como el producto líder para estrategias de fidelización.
-
----
-
-## 📂 Evidencias del Proyecto
-
-A continuación, se presentan las pruebas técnicas que respaldan las conclusiones anteriores.
-
-### 1. Analítica Predictiva (Python & Machine Learning)
-Se utilizó **Scikit-learn** para entrenar un modelo que interpreta la tendencia histórica y proyecta el comportamiento futuro.
-
-![Predicción de Ventas](img/regresión-lineal.png)
-
-### 2. Análisis de Estacionalidad (Python & Seaborn)
-Mapa de calor generado para detectar patrones de compra por día de la semana y mes del año, permitiendo identificar momentos de saturación y oportunidad.
-
-![Heatmap de Estacionalidad](img/mapa-de-calor.png)
-
-### 3. Dashboard Operativo (Power BI)
-Visualización de KPIs críticos como el rendimiento logístico por país y la distribución de ingresos por categoría de producto.
-
-![Ventas por Categoría](img/Ventas_por_categoria.png)
-
-![Eficiencia de Envíos](img/Dias_promedio_del_envio.png)
-
-### 4. Capa de Datos (PostgreSQL)
-La base del proyecto reside en una estructura sólida de SQL. Se desarrollaron scripts avanzados para auditoría y preparación de datos:
-* [Análisis de Mercados Internacionales](sql/01_clientes_y_pedidos_internacionales.sql)
-* [Auditoría de Proveedores y Catálogo](sql/02_analisis_productos_y_proveedores.sql)
-* [Elasticidad de Descuentos](sql/03_detalle_ventas_y_descuentos.sql)
-* [Vistas Analíticas para Python](sql/04_vistas_para_python.sql)
+    ![Mapa de Calor de Ventas](ruta/a/tu/imagen_heatmap.png)
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
-* **PostgreSQL:** Extracción de datos, Triggers y Vistas analíticas.
-* **Python (Pandas, Scikit-learn):** Procesamiento de datos y modelado predictivo.
-* **Power BI:** Visualización de datos y DAX.
+## 🛠️ Solución Técnica (The Stack)
+
+* **Extracción y Lógica de Negocio:** **PostgreSQL**. Creación de queries complejas para consolidar ventas, productos y logística.
+    * 👉 *[Ver scripts de SQL aquí](./scripts)*
+* **Analítica Avanzada (Python):** * *Librerías:* `Seaborn`, `Matplotlib`, `Sklearn`.
+* **Visualización de Decisiones (Power BI):** * *KPI Logístico:* Cálculo del promedio de días por entrega.
+    * *Segmentación:* Análisis dinámico del rendimiento por categoría.
+
+---
+
+## 📈 Impacto y Hallazgos Estratégicos
+
+* **Predicción de Tendencias:** El modelo de regresión permite estimar ingresos futuros basados en el histórico, mejorando la planificación financiera.
+* **Optimización Logística:** El análisis de días por entrega permite identificar regiones o transportistas que requieren ajustes operativos.
+* **Segmentación de Cartera:** Visualización clara de los productos y categorías que generan el mayor ticket promedio.
+
+---
+

@@ -38,34 +38,34 @@ Las empresas de e-commerce deben escalar ventas sin degradar la operación logí
 
 ## 📊 Visualizaciones Destacadas
 
-### 🛒 Ventas por Categoría (Drivers de Revenue)
-
 ![Ventas por Categoría](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png)
 
 ---
-
-### 📈 Tendencia y Predicción de Ventas
 
 ![Tendencia de Ventas](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/regresi%C3%B3n-lineal.png)
 
 ---
 
-## 🔎 Análisis
+  ## 💼 Estrategia de Negocio Extendida
 
-### 1. Limpieza y Preparación de Datos
-- Tratamiento de valores nulos  
-- Corrección de tipos de datos  
-- Feature engineering (ej.: cálculo de tiempo de entrega)  
+*Si el análisis preliminar ha despertado tu interés, aquí profundizamos en cómo estas métricas se traducen en valor financiero y operativo.*
 
-### 2. Análisis Exploratorio (EDA)
-- Distribución de ventas  
-- Rendimiento por producto y categoría  
-- Tendencias temporales  
+### 1. Optimización del Portafolio (Rentabilidad)
+La distribución de Pareto detectada (70/30) no es solo una estadística, es una **oportunidad de ahorro de capital de trabajo**. Al redirigir el presupuesto de *marketing* desde categorías de "larga cola" (baja rotación) hacia las categorías líderes, no solo aumentamos el ROI, sino que reducimos los costos de almacenamiento (carrying costs) de productos obsoletos.
 
-### 3. Análisis Logístico
-- Evaluación de tiempos de envío  
-- Identificación de retrasos  
-- Comparación por país/mercado  
+### 2. Eficiencia Logística (Experiencia del Cliente)
+Los cuellos de botella detectados en los tiempos de envío actúan como una fuga de valor. En el sector fintech/e-commerce, el tiempo de entrega tiene una correlación directa con el **LTV (Lifetime Value)** del cliente.
+- **Acción:** Renegociar SLAs con transportistas bajo esquemas de penalización/bonificación por cumplimiento, garantizando un servicio nivelado.
+
+### 3. Planificación Basada en la Demanda (Forecasting)
+La variabilidad semanal identificada permite pasar de una gestión reactiva a una **proactiva**.
+- **Acción:** Implementar *Flash Sales* los miércoles de junio (periodos valle) para suavizar la curva de demanda y maximizar la ocupación de la capacidad operativa, reduciendo el costo unitario por pedido.
+
+| Área de Impacto | KPI Clave | Objetivo Financiero |
+| :--- | :--- | :--- |
+| **Comercial** | Ticket Promedio | Maximizar Ingresos |
+| **Logística** | Tiempos de entrega | Reducción de OpEx |
+| **Financiera** | Rotación de Inventario | Optimización del flujo de caja |
 
 ---
 
@@ -107,47 +107,22 @@ Reducción de tiempos de entrega y mejora de la satisfacción del cliente.
 
 ---
 
----
+ ## 🔎 Análisis
 
-## 💼 Estrategia de Negocio Extendida (Deep Dive)
+### 1. Limpieza y Preparación de Datos
+- Tratamiento de valores nulos  
+- Corrección de tipos de datos  
+- Feature engineering (ej.: cálculo de tiempo de entrega)  
 
-*Si el análisis preliminar ha despertado tu interés, aquí profundizamos en cómo estas métricas se traducen en valor financiero y operativo.*
+### 2. Análisis Exploratorio (EDA)
+- Distribución de ventas  
+- Rendimiento por producto y categoría  
+- Tendencias temporales  
 
-### 1. Optimización del Portafolio (Rentabilidad)
-La distribución de Pareto detectada (70/30) no es solo una estadística, es una **oportunidad de ahorro de capital de trabajo**. Al redirigir el presupuesto de *marketing* desde categorías de "larga cola" (baja rotación) hacia las categorías líderes, no solo aumentamos el ROI, sino que reducimos los costos de almacenamiento (carrying costs) de productos obsoletos.
-
-### 2. Eficiencia Logística (Experiencia del Cliente)
-Los cuellos de botella detectados en los tiempos de envío actúan como una fuga de valor. En el sector fintech/e-commerce, el tiempo de entrega tiene una correlación directa con el **LTV (Lifetime Value)** del cliente.
-- **Acción:** Renegociar SLAs con transportistas bajo esquemas de penalización/bonificación por cumplimiento, garantizando un servicio nivelado.
-
-### 3. Planificación Basada en la Demanda (Forecasting)
-La variabilidad semanal identificada permite pasar de una gestión reactiva a una **proactiva**.
-- **Acción:** Implementar *Flash Sales* los miércoles de junio (periodos valle) para suavizar la curva de demanda y maximizar la ocupación de la capacidad operativa, reduciendo el costo unitario por pedido.
-
-| Área de Impacto | KPI Clave | Objetivo Financiero |
-| :--- | :--- | :--- |
-| **Comercial** | Ticket Promedio | Maximizar Ingresos |
-| **Logística** | Tiempos de entrega | Reducción de OpEx |
-| **Financiera** | Rotación de Inventario | Optimización del flujo de caja |
-
----
-
----
-
-### 💼 Valor Estratégico (Resumen de KPIs)
-
-| Área de Impacto | KPI Clave a Mejorar | Objetivo de Negocio |
-| :--- | :--- | :--- |
-| **Comercial** | Ticket Promedio / Conversión | Maximizar ingresos totales |
-| **Logística** | Tiempos de entrega / Devoluciones | Reducción de costos (OpEx) y mejora de NPS |
-| **Financiera** | Rotación de Inventario | Optimización del capital de trabajo |
-
-*El análisis concluye que la intersección entre la ciencia de datos y la estrategia comercial es fundamental para transformar datos transaccionales en ventaja competitiva.*
-
-
----
-
- 
+### 3. Análisis Logístico
+- Evaluación de tiempos de envío  
+- Identificación de retrasos  
+- Comparación por país/mercado  
 
 ---
 

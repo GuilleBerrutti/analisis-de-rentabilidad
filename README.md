@@ -17,7 +17,7 @@ Priorizar inversión en marketing, stock y optimización en las categorías líd
 
 ### 📈 Tendencia y Predicción de Ventas
 
-![Tendencia de Ventas](img/tendencia_ventas.png)
+![Tendencia de Ventas](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/regresi%C3%B3n-lineal.png)
 
 **Insight:**  
 Las ventas muestran una tendencia creciente con proyección positiva en los próximos meses.

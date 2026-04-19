@@ -44,7 +44,7 @@ Las empresas de e-commerce deben escalar ventas sin degradar la operación logí
 
 ---
 
-## Tendencia de Ventas
+📊Tendencia de Ventas
 
 ![Tendencia de Ventas](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/regresi%C3%B3n-lineal.png)
 

@@ -29,7 +29,7 @@ Las empresas de e-commerce enfrentan múltiples desafíos:
 🔗 **Archivo Power BI:** 👉 *[Acceder al dashboard (Power BI)](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/tree/main/dashboard)*
 
 <details>
-  <summary><b>Ver Previsualización Dias promedio del envío</b></summary>
+  <summary><b>Ver Previsualización: Dias promedio del envío</b></summary>
 
   ![Días promedio de envío](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Dias_promedio_del_envio.png)
   </details>
@@ -50,6 +50,7 @@ El análisis se desarrolló en tres etapas:
 
 - **Eficiencia Logística:** Variaciones significativas en los tiempos de entrega por región que impactan la satisfacción del cliente.
   - 🚀 *Acción propuesta:* Renegociar SLAs con transportistas en zonas críticas.
+
 - **Proyección de Ventas:** Uso de modelos predictivos para alinear compras y presupuesto.
   - 🚀 *Acción propuesta:* Ajustar el *stock safety level* basándose en la estacionalidad detectada.
 
@@ -57,7 +58,7 @@ El análisis se desarrolló en tres etapas:
 
 ## 📊 Visualizaciones Destacadas
 
-### 🛒 Ventas por Categoría (Drivers de Revenue)
+### 🛒 Ventas por Categoría
 
 ![Ventas por Categoría](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/Ventas_por_categoria.png)
 

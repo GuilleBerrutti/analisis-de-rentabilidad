@@ -73,7 +73,7 @@ Las empresas de e-commerce deben escalar ventas sin degradar la operación logí
 
 ### 🔥 Estacionalidad de ventas (mes × día)
 
-![Heatmap Estacionalidad](images/estacionalidad_heatmap.png)
+![Heatmap Estacionalidad](https://github.com/GuilleBerrutti/ecommerce-sales-and-logistics-analysis-/blob/main/img/mapa-de-calor.png)
 
 **Insight**  
 Las ventas varían significativamente según el mes y el día de la semana.
